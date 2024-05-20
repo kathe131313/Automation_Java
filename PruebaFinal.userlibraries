@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Maven: org.seleniumhq.selenium:selenium-java:4.18.1">
+    <archive path="C:/Users/laros/.m2/repository/org/seleniumhq/selenium/selenium-java/4.18.1/selenium-java-4.18.1.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-chromium-driver:4.18.1">
+    <archive path="C:/Users/laros/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.18.1/selenium-chromium-driver-4.18.1.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-chrome-driver:4.18.1">
+    <archive path="C:/Users/laros/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.18.1/selenium-chrome-driver-4.18.1.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-devtools-v121:4.18.1">
+    <archive path="C:/Users/laros/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v121/4.18.1/selenium-devtools-v121-4.18.1.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-manager:4.18.1">
+    <archive path="C:/Users/laros/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.18.1/selenium-manager-4.18.1.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-firefox-driver:4.18.1">
+    <archive path="C:/Users/laros/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.18.1/selenium-firefox-driver-4.18.1.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-devtools-v85:4.18.1">
+    <archive path="C:/Users/laros/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.18.1/selenium-devtools-v85-4.18.1.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-remote-driver:4.18.1">
+    <archive path="C:/Users/laros/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.18.1/selenium-remote-driver-4.18.1.jar" />
+  </library>
+  <library name="Maven: dev.failsafe:failsafe:3.3.2">
+    <archive path="C:/Users/laros/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar" />
+  </library>
+  <library name="Maven: com.google.code.findbugs:jsr305:3.0.2">
+    <archive path="C:/Users/laros/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+  </library>
+  <library name="Maven: com.google.guava:failureaccess:1.0.2">
+    <archive path="C:/Users/laros/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar" />
+  </library>
+  <library name="Maven: io.opentelemetry.semconv:opentelemetry-semconv:1.23.1-alpha">
+    <archive path="C:/Users/laros/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.23.1-alpha/opentelemetry-semconv-1.23.1-alpha.jar" />
+  </library>
+  <library name="Maven: com.google.errorprone:error_prone_annotations:2.23.0">
+    <archive path="C:/Users/laros/.m2/repository/com/google/errorprone/error_prone_annotations/2.23.0/error_prone_annotations-2.23.0.jar" />
+  </library>
+  <library name="Maven: io.opentelemetry:opentelemetry-sdk-common:1.35.0">
+    <archive path="C:/Users/laros/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.35.0/opentelemetry-sdk-common-1.35.0.jar" />
+  </library>
+  <library name="Maven: io.opentelemetry:opentelemetry-context:1.35.0">
+    <archive path="C:/Users/laros/.m2/repository/io/opentelemetry/opentelemetry-context/1.35.0/opentelemetry-context-1.35.0.jar" />
+  </library>
+  <library name="Maven: io.opentelemetry:opentelemetry-sdk-trace:1.35.0">
+    <archive path="C:/Users/laros/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.35.0/opentelemetry-sdk-trace-1.35.0.jar" />
+  </library>
+  <library name="Maven: io.opentelemetry:opentelemetry-sdk-extension-autoconfigure:1.35.0">
+    <archive path="C:/Users/laros/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.35.0/opentelemetry-sdk-extension-autoconfigure-1.35.0.jar" />
+  </library>
+  <library name="Maven: io.opentelemetry:opentelemetry-sdk-logs:1.35.0">
+    <archive path="C:/Users/laros/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.35.0/opentelemetry-sdk-logs-1.35.0.jar" />
+  </library>
+  <library name="Maven: io.opentelemetry:opentelemetry-sdk:1.35.0">
+    <archive path="C:/Users/laros/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.35.0/opentelemetry-sdk-1.35.0.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-safari-driver:4.18.1">
+    <archive path="C:/Users/laros/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.18.1/selenium-safari-driver-4.18.1.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-os:4.18.1">
+    <archive path="C:/Users/laros/.m2/repository/org/seleniumhq/selenium/selenium-os/4.18.1/selenium-os-4.18.1.jar" />
+  </library>
+  <library name="Maven: io.qameta.allure:allure-testng:2.22.2">
+    <archive path="C:/Users/laros/.m2/repository/io/qameta/allure/allure-testng/2.22.2/allure-testng-2.22.2.jar" />
+  </library>
+  <library name="Maven: io.qameta.allure:allure-test-filter:2.22.2">
+    <archive path="C:/Users/laros/.m2/repository/io/qameta/allure/allure-test-filter/2.22.2/allure-test-filter-2.22.2.jar" />
+  </library>
+  <library name="Maven: org.slf4j:slf4j-api:1.7.36">
+    <archive path="C:/Users/laros/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar" />
+  </library>
+  <library name="Maven: com.google.auto.service:auto-service-annotations:1.1.1">
+    <archive path="C:/Users/laros/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-api:4.18.1">
+    <archive path="C:/Users/laros/.m2/repository/org/seleniumhq/selenium/selenium-api/4.18.1/selenium-api-4.18.1.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-devtools-v120:4.18.1">
+    <archive path="C:/Users/laros/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v120/4.18.1/selenium-devtools-v120-4.18.1.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-json:4.18.1">
+    <archive path="C:/Users/laros/.m2/repository/org/seleniumhq/selenium/selenium-json/4.18.1/selenium-json-4.18.1.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-edge-driver:4.18.1">
+    <archive path="C:/Users/laros/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.18.1/selenium-edge-driver-4.18.1.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-devtools-v122:4.18.1">
+    <archive path="C:/Users/laros/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v122/4.18.1/selenium-devtools-v122-4.18.1.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-ie-driver:4.18.1">
+    <archive path="C:/Users/laros/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.18.1/selenium-ie-driver-4.18.1.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-http:4.18.1">
+    <archive path="C:/Users/laros/.m2/repository/org/seleniumhq/selenium/selenium-http/4.18.1/selenium-http-4.18.1.jar" />
+  </library>
+  <library name="Maven: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava">
+    <archive path="C:/Users/laros/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+  </library>
+  <library name="Maven: com.google.guava:guava:33.0.0-jre">
+    <archive path="C:/Users/laros/.m2/repository/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.jar" />
+  </library>
+  <library name="Maven: com.google.j2objc:j2objc-annotations:2.8">
+    <archive path="C:/Users/laros/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar" />
+  </library>
+  <library name="Maven: org.checkerframework:checker-qual:3.41.0">
+    <archive path="C:/Users/laros/.m2/repository/org/checkerframework/checker-qual/3.41.0/checker-qual-3.41.0.jar" />
+  </library>
+  <library name="Maven: io.opentelemetry:opentelemetry-exporter-logging:1.35.0">
+    <archive path="C:/Users/laros/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.35.0/opentelemetry-exporter-logging-1.35.0.jar" />
+  </library>
+  <library name="Maven: io.opentelemetry:opentelemetry-api:1.35.0">
+    <archive path="C:/Users/laros/.m2/repository/io/opentelemetry/opentelemetry-api/1.35.0/opentelemetry-api-1.35.0.jar" />
+  </library>
+  <library name="Maven: io.opentelemetry:opentelemetry-api-events:1.35.0-alpha">
+    <archive path="C:/Users/laros/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.35.0-alpha/opentelemetry-api-events-1.35.0-alpha.jar" />
+  </library>
+  <library name="Maven: io.opentelemetry:opentelemetry-sdk-extension-autoconfigure-spi:1.35.0">
+    <archive path="C:/Users/laros/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.35.0/opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar" />
+  </library>
+  <library name="Maven: io.opentelemetry:opentelemetry-sdk-metrics:1.35.0">
+    <archive path="C:/Users/laros/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.35.0/opentelemetry-sdk-metrics-1.35.0.jar" />
+  </library>
+  <library name="Maven: io.opentelemetry:opentelemetry-extension-incubator:1.35.0-alpha">
+    <archive path="C:/Users/laros/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.35.0-alpha/opentelemetry-extension-incubator-1.35.0-alpha.jar" />
+  </library>
+  <library name="Maven: org.apache.commons:commons-exec:1.3">
+    <archive path="C:/Users/laros/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar" />
+  </library>
+  <library name="Maven: net.bytebuddy:byte-buddy:1.14.12">
+    <archive path="C:/Users/laros/.m2/repository/net/bytebuddy/byte-buddy/1.14.12/byte-buddy-1.14.12.jar" />
+  </library>
+  <library name="Maven: com.beust:jcommander:1.72">
+    <archive path="C:/Users/laros/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-support:4.18.1">
+    <archive path="C:/Users/laros/.m2/repository/org/seleniumhq/selenium/selenium-support/4.18.1/selenium-support-4.18.1.jar" />
+  </library>
+  <library name="Maven: io.qameta.allure:allure-model:2.22.2">
+    <archive path="C:/Users/laros/.m2/repository/io/qameta/allure/allure-model/2.22.2/allure-model-2.22.2.jar" />
+  </library>
+  <library name="Maven: io.qameta.allure:allure-java-commons:2.22.2">
+    <archive path="C:/Users/laros/.m2/repository/io/qameta/allure/allure-java-commons/2.22.2/allure-java-commons-2.22.2.jar" />
+  </library>
+  <library name="Maven: org.testng:testng:6.14.3">
+    <archive path="C:/Users/laros/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar" />
+  </library>
+  <library name="Maven: org.apache-extras.beanshell:bsh:2.0b6">
+    <archive path="C:/Users/laros/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar" />
+  </library>
+  <library name="Python 3.12 (Programa1_En Python) interpreter library">
+    <archive path="C:/Users/laros/AppData/Local/Programs/Python/Python312/DLLs" />
+    <archive path="C:/Users/laros/AppData/Local/Programs/Python/Python312/Lib" />
+    <archive path="C:/Users/laros/AppData/Local/Programs/Python/Python312" />
+    <archive path="C:/Users/laros/IdeaProjects/Programa1_En Python/venv" />
+    <archive path="C:/Users/laros/IdeaProjects/Programa1_En Python/venv/Lib/site-packages" />
+    <archive path="C:/Users/laros/AppData/Local/Programs/Python/Python312/Lib/site-packages" />
+    <archive path="C:/Users/laros/AppData/Local/JetBrains/IdeaIC2023.3/python_stubs/191404359" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/python-skeletons" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stdlib" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/gdb" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/six" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/boto" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/cffi" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/mock" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/pika" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/pytz" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/toml" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/tqdm" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/zstd" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/first" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/fpdf2" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/ldap3" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/polib" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/pyjks" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/redis" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/regex" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/retry" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/ujson" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/uWSGI" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/WebOb" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/bleach" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/caldav" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/docopt" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/hdbcli" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/ibm-db" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/invoke" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/passpy" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/peewee" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/Pillow" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/pluggy" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/psutil" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/pyasn1" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/pycurl" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/pynput" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/pysftp" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/PyYAML" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/qrcode" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/stripe" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/zxcvbn" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/boltons" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/chevron" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/inifile" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/libsass" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/netaddr" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/passlib" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/pexpect" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/pyaudio" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/PyMySQL" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/pyvmomi" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/pywin32" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/slumber" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/tzlocal" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/vobject" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/WTForms" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/aiofiles" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/colorama" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/croniter" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/docutils" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/ExifRead" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/greenlet" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/html5lib" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/httplib2" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/jmespath" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/keyboard" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/Markdown" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/oauthlib" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/openpyxl" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/paramiko" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/psycopg2" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/pyflakes" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/Pygments" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/pyserial" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/requests" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/tabulate" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/toposort" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/untangle" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/waitress" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/braintree" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/decorator" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/paho-mqtt" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/playsound" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/PyAutoGUI" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/pyOpenSSL" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/pyRFC3339" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/PyScreeze" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/ttkthemes" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/xmltodict" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/cachetools" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/commonmark" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/dateparser" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/Deprecated" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/Flask-Cors" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/jsonschema" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/pyfarmhash" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/Send2Trash" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/setuptools" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/simplejson" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/SQLAlchemy" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/tensorflow" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/entrypoints" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/flake8-2020" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/JACK-Client" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/mysqlclient" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/opentracing" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/pep8-naming" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/pycocotools" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/pyinstaller" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/python-jose" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/python-nmap" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/python-xlib" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/stdlib-list" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/tree-sitter" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/workalendar" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/aws-xray-sdk" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/console-menu" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/editdistance" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/parsimonious" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/usersettings" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/whatthepatch" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/click-spinner" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/Flask-Migrate" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/humanfriendly" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/python-gflags" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/beautifulsoup4" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/flake8-bugbear" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/Flask-SocketIO" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/python-crontab" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/python-slugify" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/singledispatch" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/flake8-builtins" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/flake8-simplify" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/influxdb-client" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/mypy-extensions" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/python-datemath" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/python-dateutil" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/dockerfile-parse" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/Flask-SQLAlchemy" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/s2clientprotocol" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/flake8-docstrings" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/requests-oauthlib" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/translationstring" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/click-default-group" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/flake8-plugin-utils" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/pytest-lazy-fixture" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/flake8-rst-docstrings" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/flake8-typing-imports" />
+    <archive path="C:/Users/laros/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/python-ce/helpers/typeshed/stubs/tree-sitter-languages" />
+  </library>
+</eclipse-userlibraries>
+
