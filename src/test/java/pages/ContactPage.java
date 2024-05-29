@@ -7,11 +7,11 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import static java.lang.Thread.sleep;
 import static org.testng.Assert.assertEquals;
-public class Contact {
+public class ContactPage {
     private static WebDriver driver;
 
-    public Contact(WebDriver driver) {
-        Contact.driver = driver;
+    public ContactPage(WebDriver driver) {
+        ContactPage.driver = driver;
         PageFactory.initElements(driver, this);
     }
     @FindBy(id = "recipient-email")
@@ -20,7 +20,7 @@ public class Contact {
     public void setMail(String mail) {
         cemail.sendKeys(mail);
         cemail.sendKeys(Keys.ENTER);
-        new Contact(driver);
+        new ContactPage(driver);
 
     }
     @FindBy(id = "recipient-name")
@@ -29,7 +29,7 @@ public class Contact {
     public void setName(String name) {
         rname.sendKeys(name);
         rname.sendKeys(Keys.ENTER);
-        new Contact(driver);
+        new ContactPage(driver);
 
     }
     @FindBy(id = "message-text")
@@ -38,7 +38,7 @@ public class Contact {
     public void setMesa(String name) {
         mesa.sendKeys(name);
         mesa.sendKeys(Keys.ENTER);
-        new Contact(driver);
+        new ContactPage(driver);
 
     }
 
