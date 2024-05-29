@@ -2,23 +2,19 @@ package scripts;
 
 import datasets.DataPerson;
 import io.qameta.allure.Attachment;
-import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.testng.annotations.*;
 import pages.*;
-
 import java.time.Duration;
 
 import static org.testng.Assert.assertEquals;
 
 public class ProyectFinalTest {
     WebDriver driver;
+    private boolean acceptNextAlert = true;
+
 
     @BeforeMethod
     public void setUp() {
@@ -30,17 +26,24 @@ public class ProyectFinalTest {
 
     @Parameters({"listproductParam","productParam","priceParam","addcartParam"})
     @Test
-    public void testPhone(String listproduct,String product, String price, String addcar) {
+    public void testProduct(String listproduct, String product, String price, String addcar) {
         driver.get("https://www.demoblaze.com/");
         HomePage homePage = new HomePage(driver);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         homePage.selecProduct(listproduct);
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(80));
         ProductPage productPage = homePage.clickProduct(product);
+        assertEquals(productPage.getPrice(), price);
         productPage.clickAddCar(addcar);
-        assertEquals(driver.findElement(By.linkText(product)).getText(), product);
-        //assertEquals(closeAlertAndGetItsText(), "Product added");
+        /* Verificar el carrito de compras*/
+        CarritoPage carritoPage = homePage.clickCar();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(80));
+        wait.until(ExpectedConditions.visibilityOf(carritoPage.totap));
 
+        assertEquals(carritoPage.getTota(), price);
+
+
+       assertEquals(closeAlertAndGetItsText(), "Product added");
 
     }
 
@@ -52,7 +55,7 @@ public class ProyectFinalTest {
         driver.get("https://www.demoblaze.com/");
         HomePage homePage = new HomePage(driver);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-        SignUp signUp = homePage.clickSignUp();
+        SignUpPage signUp = homePage.clickSignUp();
         signUp.setusername(username);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         signUp.setpass(pass);
@@ -66,11 +69,11 @@ public class ProyectFinalTest {
         driver.get("https://www.demoblaze.com/");
         HomePage homePage = new HomePage(driver);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-        Login login = homePage.clickLogin();
-        login.setloginuser(username);
+        LoginPage loginPage = homePage.clickLogin();
+        loginPage.setloginuser(username);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-        login.setloginpass(pass);
-        login.clickbtnLogin();
+        loginPage.setloginpass(pass);
+        loginPage.clickbtnLogin();
     }
 
     /* Test 3:  Hacer contacto con la empresa   *********/
@@ -82,7 +85,7 @@ public class ProyectFinalTest {
         HomePage homePage = new HomePage(driver);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30
         ));
-        Contact contact = homePage.clickContact();
+        ContactPage contact = homePage.clickContact();
         contact.setMail(mail);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         contact.setName(name);
@@ -103,7 +106,23 @@ public class ProyectFinalTest {
         }
         return image;
     }
+    private String closeAlertAndGetItsText() {
+        try {
+            Alert alert = driver.switchTo().alert();
+            String alertText = alert.getText();
+            if (acceptNextAlert) {
+                alert.accept();
+            } else {
+                alert.dismiss();
+            }
+            return alertText;
+        } finally {
+            acceptNextAlert = true;
+        }
+    }
 
-
-
+    @AfterMethod
+    public void tearDown(){
+        driver.close();
+    }
 }

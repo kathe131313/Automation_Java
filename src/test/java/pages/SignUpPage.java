@@ -7,12 +7,12 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 
-public class SignUp {
+public class SignUpPage {
 
     private static WebDriver driver;
 
-    public SignUp(WebDriver driver) {
-        SignUp.driver = driver;
+    public SignUpPage(WebDriver driver) {
+        SignUpPage.driver = driver;
         PageFactory.initElements(driver, this);
     }
 
@@ -22,7 +22,7 @@ public class SignUp {
     public void setusername(String user) {
         username.sendKeys(user);
         username.sendKeys(Keys.ENTER);
-        new SignUp(driver);
+        new SignUpPage(driver);
 
     }
 
@@ -32,7 +32,7 @@ public class SignUp {
     public void setpass(String pass) {
         password.sendKeys(pass);
         password.sendKeys(Keys.ENTER);
-        new SignUp(driver);
+        new SignUpPage(driver);
     }
     //Localizar el css u otro selector que no sea el xpath
     @FindBy(xpath = "//*[@id=\"signInModal\"]/div/div/div[3]/button[2]")

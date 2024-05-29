@@ -3,28 +3,19 @@
     <test name="Phones">
         <parameter name="listproductParam" value="Phones"/>
         <parameter name="productParam" value="Samsung galaxy s6"/>
-        <parameter name="priceParam" value="$360" />
+        <parameter name="priceParam" value="$360 *includes tax" />
         <parameter name="addcartParam" value="Add to cart"/>
-        <classes>
-            <class name="scripts.ProyectFinalTest"/>
-        </classes>
-    </test>
-    <test name="Laptops">
         <parameter name="listproductParam" value="Laptops"/>
-        <parameter name="productParam" value="Sony vaio i5"/>
-        <parameter name="priceParam" value="$790" />
+        <parameter name="productParam" value="MacBook air"/>
+        <parameter name="priceParam" value="$700 *includes tax" />
         <parameter name="addcartParam" value="Add to cart"/>
-        <classes>
-            <class name="scripts.ProyectFinalTest"/>
-        </classes>
-    </test>
-    <test name="Monitors">
         <parameter name="listproductParam" value="Monitors"/>
         <parameter name="productParam" value="Apple monitor 24"/>
-        <parameter name="priceParam" value="$400" />
+        <parameter name="priceParam" value="$400 *includes tax" />
         <parameter name="addcartParam" value="Add to cart"/>
         <classes>
             <class name="scripts.ProyectFinalTest"/>
         </classes>
     </test>
- </suite>
+
+    </suite>

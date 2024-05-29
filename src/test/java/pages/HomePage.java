@@ -22,9 +22,9 @@ public class HomePage {
     /********************** Método click a "Sign Up"********************************************************/
 
     @Step("Haciendo click en Sign Up")
-    public SignUp clickSignUp() {
+    public SignUpPage clickSignUp() {
         signup.click();
-        return new SignUp(driver);
+        return new SignUpPage(driver);
 
     }
     /********************** Método click a "Login"********************************************************/
@@ -32,9 +32,9 @@ public class HomePage {
     private WebElement login;
 
     @Step("Haciendo click en Login")
-    public Login clickLogin() {
+    public LoginPage clickLogin() {
         login.click();
-        return new Login(driver);
+        return new LoginPage(driver);
 
     }
     /********************** Método click a "Contact"********************************************************/
@@ -42,9 +42,9 @@ public class HomePage {
     private WebElement contact;
 
     @Step("Haciendo click en Contact")
-    public Contact clickContact() {
+    public ContactPage clickContact() {
         contact.click();
-        return new Contact(driver);
+        return new ContactPage(driver);
 
     }
 
@@ -75,7 +75,14 @@ public class HomePage {
         clickProd.click();
         return new ProductPage(driver);
     }
+    @FindBy(id = "cartur")
+    private WebElement cartur;
 
+    public CarritoPage clickCar(){
+        cartur.click();
+        return new CarritoPage(driver);
+
+    }
 
 
 }

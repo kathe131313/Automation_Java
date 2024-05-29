@@ -17,10 +17,10 @@ public class ProductPage {
 
         return price.getText();
     }
-    public ProductPage clickAddCar(String addcar) {
-        WebElement clickAdd = driver.findElement(By.linkText(addcar));
+    public void clickAddCar(String addca) {
+        WebElement clickAdd = driver.findElement(By.linkText(addca));
         clickAdd.click();
-        return new ProductPage(driver);
+        new ProductPage(driver);
     }
 
 }

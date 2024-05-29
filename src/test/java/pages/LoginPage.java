@@ -8,11 +8,11 @@ import org.openqa.selenium.support.PageFactory;
 import static java.lang.Thread.sleep;
 import static org.testng.Assert.assertEquals;
 
-public class Login {
+public class LoginPage {
     private static WebDriver driver;
 
-    public Login(WebDriver driver) {
-        Login.driver = driver;
+    public LoginPage(WebDriver driver) {
+        LoginPage.driver = driver;
         PageFactory.initElements(driver, this);
     }
     @FindBy(id = "loginusername")
@@ -21,7 +21,7 @@ public class Login {
     public void setloginuser(String user) {
         loginuser.sendKeys(user);
         loginuser.sendKeys(Keys.ENTER);
-        new Login(driver);
+        new LoginPage(driver);
 
     }
     @FindBy(id = "loginpassword")
@@ -30,7 +30,7 @@ public class Login {
     public void setloginpass(String user) {
         logipass.sendKeys(user);
         logipass.sendKeys(Keys.ENTER);
-        new Login(driver);
+        new LoginPage(driver);
 
     }
 
@@ -52,6 +52,6 @@ public void clickbtnLogin () {
         assertEquals(alertMessage, "El usuario ya existe");
         // Accepting alert
         alert.accept();
-        new Login(driver);
+        new LoginPage(driver);
     }
 }
