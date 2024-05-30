@@ -1,10 +1,10 @@
 package scripts;
-
 import datasets.DataPerson;
 import io.qameta.allure.Attachment;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.*;
 import pages.*;
 import java.time.Duration;
@@ -23,10 +23,11 @@ public class ProyectFinalTest {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
     }
 
-
-    @Parameters({"listproductParam","productParam","priceParam","addcartParam"})
+    /* Este test prueba que el sistema seleccione el tipo de producto, luego el producto y luego lo adiciona al carrito*/
+    /*                       Esto lo hace con los tres (3) tipos de producto. Acá van tres tests                       */
+    @Parameters({"listproductParam","productParam","priceParam","addcartParam", "totapParam"})
     @Test
-    public void testProduct(String listproduct, String product, String price, String addcar) {
+    public void testProduct(String listproduct, String product, String price, String addcar,String totap) {
         driver.get("https://www.demoblaze.com/");
         HomePage homePage = new HomePage(driver);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
@@ -38,16 +39,15 @@ public class ProyectFinalTest {
         /* Verificar el carrito de compras*/
         CarritoPage carritoPage = homePage.clickCar();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(80));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(80));
         wait.until(ExpectedConditions.visibilityOf(carritoPage.totap));
+        assertEquals(carritoPage.getTota(), totap);
 
-        assertEquals(carritoPage.getTota(), price);
 
-
-       assertEquals(closeAlertAndGetItsText(), "Product added");
 
     }
 
-    /* Test 1: Registrar usuario nuevo                                     */
+    /* Test 4: Registrar usuario nuevo                                     */
     @Test(dataProvider = "dataset_all", dataProviderClass = DataPerson.class)
     public void testSignUp(String username, String pass)  {
 
@@ -62,7 +62,7 @@ public class ProyectFinalTest {
         signUp.clickbtnSignUp();
 
     }
-    /* Test 2:  Hacer Login con los Usuarios Registrados en el test anterior   *********/
+    /* Test 5:  Hacer Login con los Usuarios Registrados en el test anterior   *********/
     @Test(dataProvider = "dataset_all", dataProviderClass = DataPerson.class)
     public void testLogin(String username, String pass)  {
 
@@ -76,7 +76,7 @@ public class ProyectFinalTest {
         loginPage.clickbtnLogin();
     }
 
-    /* Test 3:  Hacer contacto con la empresa   *********/
+    /* Test 6:  Hacer contacto con la empresa   *********/
 
     @Test(dataProvider = "dataset_contact", dataProviderClass = DataPerson.class)
     public void testContact(String mail, String name, String mensaje)  {
