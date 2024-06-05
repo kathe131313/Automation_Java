@@ -1,12 +1,9 @@
 package pages;
-
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import static java.lang.Thread.sleep;
-import static org.testng.Assert.assertEquals;
 public class ContactPage {
     private static WebDriver driver;
 
@@ -20,7 +17,6 @@ public class ContactPage {
     public void setMail(String mail) {
         cemail.sendKeys(mail);
         cemail.sendKeys(Keys.ENTER);
-        new ContactPage(driver);
 
     }
     @FindBy(id = "recipient-name")
@@ -29,7 +25,6 @@ public class ContactPage {
     public void setName(String name) {
         rname.sendKeys(name);
         rname.sendKeys(Keys.ENTER);
-        new ContactPage(driver);
 
     }
     @FindBy(id = "message-text")
@@ -38,8 +33,6 @@ public class ContactPage {
     public void setMesa(String name) {
         mesa.sendKeys(name);
         mesa.sendKeys(Keys.ENTER);
-        new ContactPage(driver);
-
     }
 
     @FindBy(xpath = "//*[@id=\"exampleModal\"]/div/div/div[3]/button[2]")

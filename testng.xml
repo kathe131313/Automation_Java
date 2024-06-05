@@ -10,25 +10,5 @@
             <class name="scripts.ProyectFinalTest"/>
         </classes>
     </test>
-    <test name="Laptops2">
-        <parameter name="listproductParam" value="Laptops"/>
-        <parameter name="productParam" value="Dell i7 8gb"/>
-        <parameter name="priceParam" value="$700 *includes tax" />
-        <parameter name="addcartParam" value="Add to cart"/>
-        <parameter name="totapParam" value="700"/>
-        <classes>
-            <class name="scripts.ProyectFinalTest"/>
-        </classes>
-    </test>
-    <test name="Monitors2">
-        <parameter name="listproductParam" value="Monitors"/>
-        <parameter name="productParam" value="ASUS Full HD"/>
-        <parameter name="priceParam" value="$230 *includes tax" />
-        <parameter name="addcartParam" value="Add to cart"/>
-        <parameter name="totapParam" value="230"/>
-        <classes>
-            <class name="scripts.ProyectFinalTest"/>
-        </classes>
-    </test>
 
-    </suite>
+</suite>

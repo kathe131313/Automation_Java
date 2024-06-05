@@ -22,7 +22,7 @@ public class SignUpPage {
     public void setusername(String user) {
         username.sendKeys(user);
         username.sendKeys(Keys.ENTER);
-        new SignUpPage(driver);
+        //new SignUpPage(driver);
 
     }
 
@@ -32,7 +32,6 @@ public class SignUpPage {
     public void setpass(String pass) {
         password.sendKeys(pass);
         password.sendKeys(Keys.ENTER);
-        new SignUpPage(driver);
     }
     //Localizar el css u otro selector que no sea el xpath
     @FindBy(xpath = "//*[@id=\"signInModal\"]/div/div/div[3]/button[2]")

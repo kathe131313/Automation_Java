@@ -7,7 +7,8 @@ public class DataPerson {
     @DataProvider(name = "dataset_all")
     public static Object[][] getPersonData() {
         return new Object[][]{
-                {"Juan", "Contdddra.8dd88"}
+                {"Juana14", "Selenium.123"}
+
         };
     }
     @DataProvider(name = "dataset_contact")

@@ -6,6 +6,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 public class HomePage {
     private static WebDriver driver;
@@ -56,19 +60,11 @@ public class HomePage {
     private WebElement monitores;
 
 
-    public void clickPhone(){
-            phones.click();
-    }
-    public void clickLaptops(){
-        laptops.click();
-    }
-    public void clickMonitores(){
-        monitores.click();
-    }
-    public HomePage selecProduct(String listproduct) {
+
+    public void selecProduct(String listproduct) {
         WebElement clickProd = driver.findElement(By.linkText(listproduct));
         clickProd.click();
-        return new HomePage(driver);
+
     }
     public ProductPage clickProduct(String product) {
         WebElement clickProd = driver.findElement(By.linkText(product));
@@ -83,6 +79,15 @@ public class HomePage {
         return new CarritoPage(driver);
 
     }
+    @FindBy(id = "nameofuser")
+    private WebElement welcome;
 
+    // Método para obtener el texto del mensaje de bienvenida
+
+    public String getWelcome() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(400));
+        wait.until(ExpectedConditions.visibilityOf(welcome));
+        return welcome.getText();
+    }
 
 }

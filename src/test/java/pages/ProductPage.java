@@ -20,7 +20,6 @@ public class ProductPage {
     public void clickAddCar(String addca) {
         WebElement clickAdd = driver.findElement(By.linkText(addca));
         clickAdd.click();
-        new ProductPage(driver);
     }
 
 }

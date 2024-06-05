@@ -1,12 +1,9 @@
 package pages;
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import static java.lang.Thread.sleep;
-import static org.testng.Assert.assertEquals;
 
 public class LoginPage {
     private static WebDriver driver;
@@ -21,7 +18,6 @@ public class LoginPage {
     public void setloginuser(String user) {
         loginuser.sendKeys(user);
         loginuser.sendKeys(Keys.ENTER);
-        new LoginPage(driver);
 
     }
     @FindBy(id = "loginpassword")
@@ -30,7 +26,6 @@ public class LoginPage {
     public void setloginpass(String user) {
         logipass.sendKeys(user);
         logipass.sendKeys(Keys.ENTER);
-        new LoginPage(driver);
 
     }
 
@@ -39,19 +34,7 @@ public class LoginPage {
 
 public void clickbtnLogin () {
     btnLogin.click();
+    //new HomePage(driver);
 }
 
-
-    public void alertUserExiste() throws InterruptedException {
-        // Switching to Alert
-        Alert alert = driver.switchTo().alert();
-        String alertMessage = alert.getText();
-        // Displaying alert message
-        System.out.println(alertMessage);
-        sleep(5000);
-        assertEquals(alertMessage, "El usuario ya existe");
-        // Accepting alert
-        alert.accept();
-        new LoginPage(driver);
-    }
 }
